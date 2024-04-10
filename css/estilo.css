@@ -1,0 +1,44 @@
+body{
+    background-color: darkred;
+}
+ header.cabeçalho{
+    background-color: #c1121f;
+    padding: 3%;
+ }
+ div.logo{ 
+    background-color: aliceblue;
+ }
+nav{ 
+    background-color: darkgrey;
+}
+main{
+    background-color: black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+}
+ section{
+    background-color: #4cc9f0;
+ }
+ footer.rodapé{
+    background-color: #590d22;
+    padding: 3%;
+ }
+ h1,h2.titulos{
+    background-color: blue;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+ }
+ h1{
+    font-size: 2em;
+ }
+ h2{
+    font-size: 1.5em;
+ }
+ p{
+    line-height: 1.5em;
+    font-size: 1.2em;
+ }
+   
