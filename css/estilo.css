@@ -2,11 +2,11 @@ body{
     background-color: darkred;
 }
  header.cabeçalho{
-    background-color: #c1121f;
+    background-color: black;
     padding: 3%;
  }
  div.logo{ 
-    background-color: aliceblue;
+ 
  }
 nav{ 
     background-color: darkgrey;
@@ -16,7 +16,7 @@ main{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 3%;
+   padding: 3%;
 }
  section{
     background-color: #4cc9f0;
@@ -25,17 +25,21 @@ main{
     background-color: #590d22;
     padding: 3%;
  }
- h1,h2.titulos{
-    background-color: blue;
+ h1{
+    font-size: 2em;
+    color: #590d22;
+    background-color: aliceblue;
     line-height: 3;
     text-align: center;
     font-weight: bold;
  }
- h1{
-    font-size: 2em;
- }
  h2{
     font-size: 1.5em;
+    color: red;
+    background-color:antiquewhite;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
  }
  p{
     line-height: 1.5em;
