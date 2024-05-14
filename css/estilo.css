@@ -61,7 +61,3 @@ main{
    margin-left: 1%;
    margin-right: 1%;
 }
- .linha{
-   display: flex;
-   flex-flow: row;
- }
