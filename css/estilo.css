@@ -59,7 +59,24 @@ main{
    margin-left: auto;
    margin-right: auto;
 }
+ol{
+   list-style-type: upper-roman;
+   margin-left: 2%;
+ }
+ li{
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 2%;
+   padding: 1%;
+ }
+.titulocurio{
+   background-color:#edede9; 
 
+}
+.curiosidades {
+   background-color: #edede9;
+   box-shadow: 10px 10px 5px rgb(7, 63, 82)
+}
 .col-3{
    width:25%
 }
@@ -72,11 +89,15 @@ main{
    margin-left: 1%;
    margin-right: 1%;
 }
-td,th {
-    border: 5px dashed #5e0303;
-    padding: 1.5%;
-    width: 100%;
-}  
+table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ th, td {
+   padding: 8px;
+   text-align: left;
+ }
 a:visited {
    color: rgb(136, 3, 3);
  }
@@ -98,6 +119,7 @@ a:visited {
    padding: 20px;
    box-sizing: border-box;
    background-color: #219ebc;
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -113,11 +135,8 @@ a:visited {
 }
 div.card {
    box-shadow: 10px 10px;
-   transition: width 0.5s;
  
  }
 
- div.card:hover{
-   
- }
+
   
