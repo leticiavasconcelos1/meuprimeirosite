@@ -5,7 +5,7 @@ body{
     background-color: black;
     padding: 3%;
       display: flex;
-      align-items: center;p: 0;
+      align-items: center;
    z-index: 1;
    display: flex;
    align-items: center;  
@@ -13,6 +13,11 @@ body{
    width: 100%;
    box-sizing: border-box;
    color: #edede9;
+   position: fixed;
+   top: 0%;
+ }
+ html{
+   scroll-behavior: smooth;
  }
 
 .logo{
@@ -44,6 +49,9 @@ main{
  section{
    background-color: darkgrey;
    padding: 3%;
+   /* padding-top: 100px; /* ou o tamanho do seu menu fixo */
+   /* margin-top: -100px; /* mesmo valor do padding-top */
+
  }
  footer.rodapé{
     background-color: #000000;

@@ -19,6 +19,7 @@
                     <li class="menu"><a href="#curiosidades">Curiosidades</a></li>
                     <li class="menu"><a href= "#novatemporada"> Nova Temporada</a></li>
                     <li class="menu"><a href= "#criadores">criadores</a></li>
+                    <li class="menu"><a href= "contato.html">contato</a></li>
                 </ul>
             </nav>
     </header>
@@ -136,5 +137,20 @@
     <footer class="rodapé">
         <p> Criado por Letícia Vasconcelos</p>
     </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                const offset = 185; // ajuste este valor de acordo com a altura do seu menu
+    
+                window.scrollTo({
+                    top: targetElement.offsetTop - offset
+                });
+            });
+        });
+    </script>
 </body>
 </html>
