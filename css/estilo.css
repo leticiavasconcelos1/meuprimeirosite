@@ -57,6 +57,7 @@ main{
     background-color: #000000;
     padding: 3%;
     color: aliceblue;
+    text-align: center;
  }
  h1{
     font-size: 2em;
@@ -199,4 +200,47 @@ div.card {
    height: auto;
  }
 
+
+ /*contato */
+ input{
+   border: 2.5px solid black;
+   border-radius: 4px;
+
+ }
+ input[type=text] {
+   width: 95%;
+   padding: 12px 20px;
+   
+ }
+ input[type=select] {
+   width: 95%;
+   padding: 12px 20px;
+ }
+ input[type=date] {
+   width: 95%;
+   padding: 12px 20px;
+ }
+ textarea{
+   width: 100%;
+   height: 150px;
+   padding: 12px 20px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   background-color: #f5f4f4b7;
+   resize: none;
+ }
+ input[type=submit] {
+   width: 100%;
+   background-color: #610303;
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+ 
+
+ 
   
